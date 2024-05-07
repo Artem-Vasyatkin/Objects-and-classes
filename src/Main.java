@@ -24,7 +24,30 @@ public class Main {
         System.out.println("john.age = " + john.getAge());
         john.setAge(14);
         System.out.println("john.getName() = " + john.getAge());
+
+        System.out.println("Homework");
+
+        Author sagan = new Author("Carl", "Sagan");
+        Author deutsch = new Author("David", "Deutsch");
+
+        Book book1 = new Book("A world full of demons",
+                2022, sagan);
+        Book book2 = new Book("The beginning of infinity",
+                2021, deutsch);
+        book2.setYearOfPublicationOfTheBook(2011);
+
+        System.out.println("Название книги - " + book1.getName() + "," +
+                " Год выпуска - " + book1.getYearOfPublicationOfTheBook() + "," +
+                " Автор книги - " + sagan.getName() + " " + sagan.getSurname());
+
+        System.out.println("Название - " + book2.getName() + "," +
+                " Год выпуска - " + book2.getYearOfPublicationOfTheBook() + "," +
+                " Автор книги - " + deutsch.getName() + " " + deutsch.getSurname());
+
     }
+
+
+
 }
 
 
