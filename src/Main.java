@@ -24,7 +24,12 @@ public class Main {
         System.out.println("john.age = " + john.getAge());
         john.setAge(14);
         System.out.println("john.getName() = " + john.getAge());
+
+        System.out.println("Homework");
+
     }
+
+
 }
 
 
